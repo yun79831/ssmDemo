@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 @Repository
 public class RedisTemplateDaoImpl implements RedisTemplateDao {
+
     private final static Logger logger = Logger.getLogger(RedisTemplateDaoImpl.class);
 
     @Resource
