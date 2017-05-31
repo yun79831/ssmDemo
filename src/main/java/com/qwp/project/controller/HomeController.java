@@ -33,6 +33,6 @@ public class HomeController {
             return "";
         }
         model.addAttribute("user", userName);
-        return "redirect:/401.html";
+        return "redirect:/401.jsp";
     }
 }
